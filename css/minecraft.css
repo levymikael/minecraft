@@ -130,7 +130,8 @@ td {
 .inventory {
     color: white;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+   text-align: center;
 }
 
 #inventory-item {
