@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    margin-top: 15%;
+    height: 100%;
+    background: url("https://media-minecraftforum.cursecdn.com/attachments/198/670/635972457037242064.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+button {
+    margin: 10px;
+margin-top: 30px;
+    border: 1px black solid;
+    border-radius: 5px;
+    font: white
+
+}
+
+a {
+    text-decoration: none
+}
+
+:any-link {
+    color: black
+}
+
+.box {
+    opacity: 0.8;
+    background-color: darkgrey;
+    border: 4px solid grey;
+    height: 25%;
+    width: 40%;
+    display: inline-grid;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px
+}
